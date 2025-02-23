@@ -1,5 +1,4 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
     background-color: black;
 }
 .Siguiente{
@@ -13,7 +12,7 @@ body{
     transition: transform 0.2s ease;
     position: absolute;
     top: 40px;
-    left: 1375px;
+    left: 1275px;
 }
 .Anterior{
     background: linear-gradient(45deg, #5b08df, #ff4b2b);
@@ -26,17 +25,37 @@ body{
     transition: transform 0.2s ease;
     position: absolute;
     top: 40px;
-    left: 600px;
+    left: 500px;
 }
 .imagen {
     width: 500px;
     height: auto;
     position: absolute;
     top: 200px;
-    left: 600px;
+    left: 500px;
+}
+.texto{
+    color: white;
+    position: absolute;
+    word-wrap: break-word;
+    width: 300px;
+    top: 250px;
+    left: 1100px;
 }
 .audio{
     position: absolute;
     top: 420px;
-    left: 1200px; 
+    left: 1100px; 
+}
+.footer{
+    color: white;
+    position: absolute;
+    top: 840px;
+    background: linear-gradient(45deg, #555555, #000000);
+    border: none;
+    padding: 12px 720px;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
 }
