@@ -1,0 +1,42 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+.Siguiente{
+    background: linear-gradient(45deg, #5b08df, #ff4b2b);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    position: absolute;
+    top: 40px;
+    left: 1375px;
+}
+.Anterior{
+    background: linear-gradient(45deg, #5b08df, #ff4b2b);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    position: absolute;
+    top: 40px;
+    left: 600px;
+}
+.imagen {
+    width: 500px;
+    height: auto;
+    position: absolute;
+    top: 200px;
+    left: 600px;
+}
+.audio{
+    position: absolute;
+    top: 420px;
+    left: 1200px; 
+}
